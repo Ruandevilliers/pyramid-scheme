@@ -1,0 +1,49 @@
+body{background-color: blueviolet;font-family: 'Caveat', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+min-height: 95vh;
+display: flex;
+flex-direction: column;
+background-image: url(./images/All_Gizah_Pyramids.jpg);width: 50%;
+}
+h1{text-transform: uppercase;}
+
+.all{display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 600px;
+    text-align: center;
+        
+    }
+    
+    .box{background-color: wheat;
+    border-radius: 6%;
+padding: 10px;
+    }
+button {border-radius: 7%;
+border-width:5px;
+}
+
+  
+     
+@media (max-width: 500px){
+    h1{font-size: 1.5rem;}
+    .all{display: flex;
+    flex-direction: column;
+flex-wrap: wrap;
+;
+max-width: 250px;
+}
+
+ 
+    
+  
+
+}
+
+
+
+    
+
+    
+    
